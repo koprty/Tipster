@@ -7,46 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E3CAA4BE1C1CB17A006A40EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAA4BD1C1CB17A006A40EE /* AppDelegate.swift */; };
-		E3CAA4C01C1CB17A006A40EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAA4BF1C1CB17A006A40EE /* ViewController.swift */; };
-		E3CAA4C31C1CB17A006A40EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CAA4C11C1CB17A006A40EE /* Main.storyboard */; };
-		E3CAA4C51C1CB17A006A40EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CAA4C41C1CB17A006A40EE /* Assets.xcassets */; };
-		E3CAA4C81C1CB17A006A40EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CAA4C61C1CB17A006A40EE /* LaunchScreen.storyboard */; };
-		E3CAA4D31C1CB17A006A40EE /* TipsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAA4D21C1CB17A006A40EE /* TipsterTests.swift */; };
+		E37B2D461C359C53002CF5E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37B2D451C359C53002CF5E0 /* AppDelegate.swift */; };
+		E37B2D481C359C53002CF5E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37B2D471C359C53002CF5E0 /* ViewController.swift */; };
+		E37B2D4B1C359C53002CF5E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37B2D491C359C53002CF5E0 /* Main.storyboard */; };
+		E37B2D4D1C359C53002CF5E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E37B2D4C1C359C53002CF5E0 /* Assets.xcassets */; };
+		E37B2D501C359C53002CF5E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E37B2D4E1C359C53002CF5E0 /* LaunchScreen.storyboard */; };
+		E37B2D5B1C359C53002CF5E0 /* TipsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37B2D5A1C359C53002CF5E0 /* TipsterTests.swift */; };
+		E37B2D661C35BB2B002CF5E0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37B2D651C35BB2B002CF5E0 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E3CAA4CF1C1CB17A006A40EE /* PBXContainerItemProxy */ = {
+		E37B2D571C359C53002CF5E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E3CAA4B21C1CB17A006A40EE /* Project object */;
+			containerPortal = E37B2D3A1C359C53002CF5E0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E3CAA4B91C1CB17A006A40EE;
+			remoteGlobalIDString = E37B2D411C359C53002CF5E0;
 			remoteInfo = Tipster;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E3CAA4BA1C1CB17A006A40EE /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3CAA4BD1C1CB17A006A40EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3CAA4BF1C1CB17A006A40EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E3CAA4C21C1CB17A006A40EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E3CAA4C41C1CB17A006A40EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3CAA4C71C1CB17A006A40EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E3CAA4C91C1CB17A006A40EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3CAA4CE1C1CB17A006A40EE /* TipsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3CAA4D21C1CB17A006A40EE /* TipsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsterTests.swift; sourceTree = "<group>"; };
-		E3CAA4D41C1CB17A006A40EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37B2D421C359C53002CF5E0 /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37B2D451C359C53002CF5E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E37B2D471C359C53002CF5E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E37B2D4A1C359C53002CF5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E37B2D4C1C359C53002CF5E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E37B2D4F1C359C53002CF5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E37B2D511C359C53002CF5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37B2D561C359C53002CF5E0 /* TipsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E37B2D5A1C359C53002CF5E0 /* TipsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsterTests.swift; sourceTree = "<group>"; };
+		E37B2D5C1C359C53002CF5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E37B2D651C35BB2B002CF5E0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E3CAA4B71C1CB17A006A40EE /* Frameworks */ = {
+		E37B2D3F1C359C53002CF5E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3CAA4CB1C1CB17A006A40EE /* Frameworks */ = {
+		E37B2D531C359C53002CF5E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,42 +58,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E3CAA4B11C1CB17A006A40EE = {
+		E37B2D391C359C53002CF5E0 = {
 			isa = PBXGroup;
 			children = (
-				E3CAA4BC1C1CB17A006A40EE /* Tipster */,
-				E3CAA4D11C1CB17A006A40EE /* TipsterTests */,
-				E3CAA4BB1C1CB17A006A40EE /* Products */,
+				E37B2D441C359C53002CF5E0 /* Tipster */,
+				E37B2D591C359C53002CF5E0 /* TipsterTests */,
+				E37B2D431C359C53002CF5E0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E3CAA4BB1C1CB17A006A40EE /* Products */ = {
+		E37B2D431C359C53002CF5E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3CAA4BA1C1CB17A006A40EE /* Tipster.app */,
-				E3CAA4CE1C1CB17A006A40EE /* TipsterTests.xctest */,
+				E37B2D421C359C53002CF5E0 /* Tipster.app */,
+				E37B2D561C359C53002CF5E0 /* TipsterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E3CAA4BC1C1CB17A006A40EE /* Tipster */ = {
+		E37B2D441C359C53002CF5E0 /* Tipster */ = {
 			isa = PBXGroup;
 			children = (
-				E3CAA4BD1C1CB17A006A40EE /* AppDelegate.swift */,
-				E3CAA4BF1C1CB17A006A40EE /* ViewController.swift */,
-				E3CAA4C11C1CB17A006A40EE /* Main.storyboard */,
-				E3CAA4C41C1CB17A006A40EE /* Assets.xcassets */,
-				E3CAA4C61C1CB17A006A40EE /* LaunchScreen.storyboard */,
-				E3CAA4C91C1CB17A006A40EE /* Info.plist */,
+				E37B2D451C359C53002CF5E0 /* AppDelegate.swift */,
+				E37B2D471C359C53002CF5E0 /* ViewController.swift */,
+				E37B2D491C359C53002CF5E0 /* Main.storyboard */,
+				E37B2D651C35BB2B002CF5E0 /* SettingsViewController.swift */,
+				E37B2D4C1C359C53002CF5E0 /* Assets.xcassets */,
+				E37B2D4E1C359C53002CF5E0 /* LaunchScreen.storyboard */,
+				E37B2D511C359C53002CF5E0 /* Info.plist */,
 			);
 			path = Tipster;
 			sourceTree = "<group>";
 		};
-		E3CAA4D11C1CB17A006A40EE /* TipsterTests */ = {
+		E37B2D591C359C53002CF5E0 /* TipsterTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3CAA4D21C1CB17A006A40EE /* TipsterTests.swift */,
-				E3CAA4D41C1CB17A006A40EE /* Info.plist */,
+				E37B2D5A1C359C53002CF5E0 /* TipsterTests.swift */,
+				E37B2D5C1C359C53002CF5E0 /* Info.plist */,
 			);
 			path = TipsterTests;
 			sourceTree = "<group>";
@@ -99,13 +102,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E3CAA4B91C1CB17A006A40EE /* Tipster */ = {
+		E37B2D411C359C53002CF5E0 /* Tipster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3CAA4D71C1CB17A006A40EE /* Build configuration list for PBXNativeTarget "Tipster" */;
+			buildConfigurationList = E37B2D5F1C359C53002CF5E0 /* Build configuration list for PBXNativeTarget "Tipster" */;
 			buildPhases = (
-				E3CAA4B61C1CB17A006A40EE /* Sources */,
-				E3CAA4B71C1CB17A006A40EE /* Frameworks */,
-				E3CAA4B81C1CB17A006A40EE /* Resources */,
+				E37B2D3E1C359C53002CF5E0 /* Sources */,
+				E37B2D3F1C359C53002CF5E0 /* Frameworks */,
+				E37B2D401C359C53002CF5E0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -113,47 +116,47 @@
 			);
 			name = Tipster;
 			productName = Tipster;
-			productReference = E3CAA4BA1C1CB17A006A40EE /* Tipster.app */;
+			productReference = E37B2D421C359C53002CF5E0 /* Tipster.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E3CAA4CD1C1CB17A006A40EE /* TipsterTests */ = {
+		E37B2D551C359C53002CF5E0 /* TipsterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3CAA4DA1C1CB17A006A40EE /* Build configuration list for PBXNativeTarget "TipsterTests" */;
+			buildConfigurationList = E37B2D621C359C53002CF5E0 /* Build configuration list for PBXNativeTarget "TipsterTests" */;
 			buildPhases = (
-				E3CAA4CA1C1CB17A006A40EE /* Sources */,
-				E3CAA4CB1C1CB17A006A40EE /* Frameworks */,
-				E3CAA4CC1C1CB17A006A40EE /* Resources */,
+				E37B2D521C359C53002CF5E0 /* Sources */,
+				E37B2D531C359C53002CF5E0 /* Frameworks */,
+				E37B2D541C359C53002CF5E0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E3CAA4D01C1CB17A006A40EE /* PBXTargetDependency */,
+				E37B2D581C359C53002CF5E0 /* PBXTargetDependency */,
 			);
 			name = TipsterTests;
 			productName = TipsterTests;
-			productReference = E3CAA4CE1C1CB17A006A40EE /* TipsterTests.xctest */;
+			productReference = E37B2D561C359C53002CF5E0 /* TipsterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E3CAA4B21C1CB17A006A40EE /* Project object */ = {
+		E37B2D3A1C359C53002CF5E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = "Lise Ho";
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lise_ho;
 				TargetAttributes = {
-					E3CAA4B91C1CB17A006A40EE = {
-						CreatedOnToolsVersion = 7.1.1;
+					E37B2D411C359C53002CF5E0 = {
+						CreatedOnToolsVersion = 7.2;
 					};
-					E3CAA4CD1C1CB17A006A40EE = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = E3CAA4B91C1CB17A006A40EE;
+					E37B2D551C359C53002CF5E0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E37B2D411C359C53002CF5E0;
 					};
 				};
 			};
-			buildConfigurationList = E3CAA4B51C1CB17A006A40EE /* Build configuration list for PBXProject "Tipster" */;
+			buildConfigurationList = E37B2D3D1C359C53002CF5E0 /* Build configuration list for PBXProject "Tipster" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -161,29 +164,29 @@
 				en,
 				Base,
 			);
-			mainGroup = E3CAA4B11C1CB17A006A40EE;
-			productRefGroup = E3CAA4BB1C1CB17A006A40EE /* Products */;
+			mainGroup = E37B2D391C359C53002CF5E0;
+			productRefGroup = E37B2D431C359C53002CF5E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3CAA4B91C1CB17A006A40EE /* Tipster */,
-				E3CAA4CD1C1CB17A006A40EE /* TipsterTests */,
+				E37B2D411C359C53002CF5E0 /* Tipster */,
+				E37B2D551C359C53002CF5E0 /* TipsterTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E3CAA4B81C1CB17A006A40EE /* Resources */ = {
+		E37B2D401C359C53002CF5E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3CAA4C81C1CB17A006A40EE /* LaunchScreen.storyboard in Resources */,
-				E3CAA4C51C1CB17A006A40EE /* Assets.xcassets in Resources */,
-				E3CAA4C31C1CB17A006A40EE /* Main.storyboard in Resources */,
+				E37B2D501C359C53002CF5E0 /* LaunchScreen.storyboard in Resources */,
+				E37B2D4D1C359C53002CF5E0 /* Assets.xcassets in Resources */,
+				E37B2D4B1C359C53002CF5E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3CAA4CC1C1CB17A006A40EE /* Resources */ = {
+		E37B2D541C359C53002CF5E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,46 +196,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E3CAA4B61C1CB17A006A40EE /* Sources */ = {
+		E37B2D3E1C359C53002CF5E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3CAA4C01C1CB17A006A40EE /* ViewController.swift in Sources */,
-				E3CAA4BE1C1CB17A006A40EE /* AppDelegate.swift in Sources */,
+				E37B2D481C359C53002CF5E0 /* ViewController.swift in Sources */,
+				E37B2D461C359C53002CF5E0 /* AppDelegate.swift in Sources */,
+				E37B2D661C35BB2B002CF5E0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3CAA4CA1C1CB17A006A40EE /* Sources */ = {
+		E37B2D521C359C53002CF5E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3CAA4D31C1CB17A006A40EE /* TipsterTests.swift in Sources */,
+				E37B2D5B1C359C53002CF5E0 /* TipsterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E3CAA4D01C1CB17A006A40EE /* PBXTargetDependency */ = {
+		E37B2D581C359C53002CF5E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E3CAA4B91C1CB17A006A40EE /* Tipster */;
-			targetProxy = E3CAA4CF1C1CB17A006A40EE /* PBXContainerItemProxy */;
+			target = E37B2D411C359C53002CF5E0 /* Tipster */;
+			targetProxy = E37B2D571C359C53002CF5E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E3CAA4C11C1CB17A006A40EE /* Main.storyboard */ = {
+		E37B2D491C359C53002CF5E0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E3CAA4C21C1CB17A006A40EE /* Base */,
+				E37B2D4A1C359C53002CF5E0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E3CAA4C61C1CB17A006A40EE /* LaunchScreen.storyboard */ = {
+		E37B2D4E1C359C53002CF5E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E3CAA4C71C1CB17A006A40EE /* Base */,
+				E37B2D4F1C359C53002CF5E0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -240,7 +244,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E3CAA4D51C1CB17A006A40EE /* Debug */ = {
+		E37B2D5D1C359C53002CF5E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -284,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		E3CAA4D61C1CB17A006A40EE /* Release */ = {
+		E37B2D5E1C359C53002CF5E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,36 +318,38 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		E3CAA4D81C1CB17A006A40EE /* Debug */ = {
+		E37B2D601C359C53002CF5E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tipster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lise-ho.Tipster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		E3CAA4D91C1CB17A006A40EE /* Release */ = {
+		E37B2D611C359C53002CF5E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tipster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lise-ho.Tipster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		E3CAA4DB1C1CB17A006A40EE /* Debug */ = {
+		E37B2D631C359C53002CF5E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -355,7 +361,7 @@
 			};
 			name = Debug;
 		};
-		E3CAA4DC1C1CB17A006A40EE /* Release */ = {
+		E37B2D641C359C53002CF5E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -370,32 +376,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E3CAA4B51C1CB17A006A40EE /* Build configuration list for PBXProject "Tipster" */ = {
+		E37B2D3D1C359C53002CF5E0 /* Build configuration list for PBXProject "Tipster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3CAA4D51C1CB17A006A40EE /* Debug */,
-				E3CAA4D61C1CB17A006A40EE /* Release */,
+				E37B2D5D1C359C53002CF5E0 /* Debug */,
+				E37B2D5E1C359C53002CF5E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3CAA4D71C1CB17A006A40EE /* Build configuration list for PBXNativeTarget "Tipster" */ = {
+		E37B2D5F1C359C53002CF5E0 /* Build configuration list for PBXNativeTarget "Tipster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3CAA4D81C1CB17A006A40EE /* Debug */,
-				E3CAA4D91C1CB17A006A40EE /* Release */,
+				E37B2D601C359C53002CF5E0 /* Debug */,
+				E37B2D611C359C53002CF5E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E3CAA4DA1C1CB17A006A40EE /* Build configuration list for PBXNativeTarget "TipsterTests" */ = {
+		E37B2D621C359C53002CF5E0 /* Build configuration list for PBXNativeTarget "TipsterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3CAA4DB1C1CB17A006A40EE /* Debug */,
-				E3CAA4DC1C1CB17A006A40EE /* Release */,
+				E37B2D631C359C53002CF5E0 /* Debug */,
+				E37B2D641C359C53002CF5E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E3CAA4B21C1CB17A006A40EE /* Project object */;
+	rootObject = E37B2D3A1C359C53002CF5E0 /* Project object */;
 }

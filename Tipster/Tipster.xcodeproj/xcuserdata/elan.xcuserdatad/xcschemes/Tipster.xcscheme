@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3CAA4B91C1CB17A006A40EE"
+               BlueprintIdentifier = "E37B2D411C359C53002CF5E0"
                BuildableName = "Tipster.app"
                BlueprintName = "Tipster"
                ReferencedContainer = "container:Tipster.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3CAA4CD1C1CB17A006A40EE"
+               BlueprintIdentifier = "E37B2D551C359C53002CF5E0"
                BuildableName = "TipsterTests.xctest"
                BlueprintName = "TipsterTests"
                ReferencedContainer = "container:Tipster.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3CAA4B91C1CB17A006A40EE"
+            BlueprintIdentifier = "E37B2D411C359C53002CF5E0"
             BuildableName = "Tipster.app"
             BlueprintName = "Tipster"
             ReferencedContainer = "container:Tipster.xcodeproj">
@@ -65,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3CAA4B91C1CB17A006A40EE"
+            BlueprintIdentifier = "E37B2D411C359C53002CF5E0"
             BuildableName = "Tipster.app"
             BlueprintName = "Tipster"
             ReferencedContainer = "container:Tipster.xcodeproj">
@@ -84,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3CAA4B91C1CB17A006A40EE"
+            BlueprintIdentifier = "E37B2D411C359C53002CF5E0"
             BuildableName = "Tipster.app"
             BlueprintName = "Tipster"
             ReferencedContainer = "container:Tipster.xcodeproj">

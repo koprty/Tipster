@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Tipster
 //
-//  Created by Lise Ho on 12/12/15.
+//  Created by Lise Ho on 12/31/15.
 //  Copyright © 2015 lise_ho. All rights reserved.
 //
 
