@@ -31,6 +31,7 @@ Here's a walkthrough of implemented user stories:
 ### Updated Walkthrough
 * Featuring bill splitting, Even Total, locked keyboard/first responder text field, and Locale-specific currency
 * See first walkthrough for demo on color themes and default tip selection
+
 <img src='http://i.imgur.com/8MKpgzQ.gif' title='Updated Video Walkthrough' alt='Updated Video Walkthrough'/>
 
 ### First Walkthrough
