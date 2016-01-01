@@ -74,7 +74,7 @@ class SettingsViewController: UIViewController, UIPickerViewDataSource, UIPicker
     
     func initThemes(ind:Int){
 
-        var labels = [defaultTipCaption, colorThemeCaption]
+        let labels = [defaultTipCaption, colorThemeCaption]
         if (ind == 0){
             //White Theme
             self.view.backgroundColor = UIColor( red: 10, green: 10, blue:10, alpha: 1.0 )

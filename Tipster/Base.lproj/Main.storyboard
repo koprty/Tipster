@@ -17,30 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCO-J9-8j5">
-                                <rect key="frame" x="37" y="312" width="25" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYp-C4-HBY">
-                                <rect key="frame" x="37" y="430" width="38" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zeP-mQ-WBE">
-                                <rect key="frame" x="37" y="370" width="340" height="15"/>
+                                <rect key="frame" x="37" y="294" width="340" height="6"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0U-F1-YYc">
-                                <rect key="frame" x="93" y="312" width="284" height="21"/>
+                                <rect key="frame" x="242" y="239" width="135" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Llq-Fq-yl0">
-                                <rect key="frame" x="52" y="104" width="310" height="29"/>
+                                <rect key="frame" x="52" y="84" width="310" height="29"/>
                                 <segments>
                                     <segment title="15%"/>
                                     <segment title="18%"/>
@@ -52,7 +40,7 @@
                                 </connections>
                             </segmentedControl>
                             <textField clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GE3-XM-gBn">
-                                <rect key="frame" x="114" y="172" width="263" height="60"/>
+                                <rect key="frame" x="114" y="151" width="263" height="60"/>
                                 <attributedString key="attributedText">
                                     <fragment content="inputField">
                                         <attributes>
@@ -68,11 +56,11 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cA-ZN-wFf">
-                                <rect key="frame" x="37" y="159" width="52" height="86"/>
+                                <rect key="frame" x="37" y="138" width="52" height="86"/>
                                 <attributedString key="attributedText">
                                     <fragment content="$">
                                         <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="48" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -81,11 +69,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAb-5Q-3uj">
-                                <rect key="frame" x="83" y="409" width="294" height="63"/>
+                                <rect key="frame" x="83" y="336" width="294" height="63"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
                                         <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="36" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -93,7 +81,39 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9g-k1-TMc">
+                                <rect key="frame" x="37" y="228" width="92" height="44"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="21" name="ArialRoundedMTBold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Even Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNc-vn-fUk">
+                                <rect key="frame" x="49" y="346" width="66" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" wraps="YES" value="5" maximumValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="Q2P-V5-b5s">
+                                <rect key="frame" x="35" y="370" width="94" height="29"/>
+                                <connections>
+                                    <action selector="onEvenChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="D9P-de-ICc"/>
+                                </connections>
+                            </stepper>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oHC-z2-jkb">
+                                <rect key="frame" x="110" y="459" width="240" height="128"/>
+                            </scrollView>
                         </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="oHC-z2-jkb"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Tipster" id="iZ1-r7-0DA">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="DK3-ot-8T4">
@@ -113,12 +133,13 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="dollarLabel" destination="5cA-ZN-wFf" id="Jtf-K2-ATS"/>
+                        <outlet property="evenLabel" destination="DNc-vn-fUk" id="g6k-dc-tQb"/>
+                        <outlet property="evenStepper" destination="Q2P-V5-b5s" id="yTT-cs-2nA"/>
                         <outlet property="inputField" destination="GE3-XM-gBn" id="ohU-sM-VYx"/>
                         <outlet property="lineView" destination="zeP-mQ-WBE" id="M3H-x5-yfN"/>
-                        <outlet property="tipCaption" destination="fCO-J9-8j5" id="TaL-aI-4uz"/>
+                        <outlet property="percentLabel" destination="M9g-k1-TMc" id="HjA-Ia-UQe"/>
                         <outlet property="tipLabel" destination="p0U-F1-YYc" id="diu-gu-Mbk"/>
                         <outlet property="tipSegCtrl" destination="Llq-Fq-yl0" id="RXu-Nd-Rzx"/>
-                        <outlet property="totalCaption" destination="oYp-C4-HBY" id="hsx-iq-ebW"/>
                         <outlet property="totalLabel" destination="TAb-5Q-3uj" id="IrO-sP-f2a"/>
                     </connections>
                 </viewController>
@@ -141,7 +162,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Default Tip Percent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJF-jZ-3aY">
                                 <rect key="frame" x="20" y="86" width="278" height="43"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande" family="Lucida Grande" pointSize="23"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="oUL-dR-Uqm">
@@ -167,7 +188,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Color Theme" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kii-JH-NnG">
                                 <rect key="frame" x="20" y="244" width="220" height="53"/>
                                 <fontDescription key="fontDescription" name="LucidaGrande" family="Lucida Grande" pointSize="23"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
