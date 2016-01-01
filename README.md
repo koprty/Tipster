@@ -15,17 +15,25 @@ The following **optional** features are implemented:
 * [x] Settings page to change the default tip percentage.
 * [ ] UI animations
 * [x] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Using locale-specific currency and currency thousands separators.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
 - [x] Added a setting to change the color theme of the application which includes implementing background and text color
+- [x] Added an Even Total Function
+- [x] Added splitting bill Feature
+- [x] Added setting to control max group size 
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
+### Updated Walkthrough
+* Featuring bill splitting, Even Total, locked keyboard/first responder text field, and Locale-specific currency
+* See first walkthrough for demo on color themes and default tip selection
+<img src='http://i.imgur.com/8MKpgzQ.gif' title='Updated Video Walkthrough' alt='Updated Video Walkthrough'/>
 
+### First Walkthrough
 <img src='http://i.imgur.com/0lPoFlc.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).

@@ -16,6 +16,9 @@ class SettingsViewController: UIViewController, UIPickerViewDataSource, UIPicker
     @IBOutlet weak var deftipSegCtrl: UISegmentedControl!
     @IBOutlet weak var ThemePicker: UIPickerView!
     let pickerData = ["White", "Cyan", "Dark", "Dark Neon"]
+    @IBOutlet weak var maxGroupLabel: UILabel!
+    @IBOutlet weak var maxGroupStepper: UIStepper!
+        //default maximum is 100
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,9 +31,20 @@ class SettingsViewController: UIViewController, UIPickerViewDataSource, UIPicker
         let defaults = NSUserDefaults.standardUserDefaults()
         let tipIndex = defaults.integerForKey("default_tip_percentage_index")
         deftipSegCtrl.selectedSegmentIndex = tipIndex;
+        //get default theme
         let theme_ind = defaults.integerForKey("theme_index")
         ThemePicker.selectRow(theme_ind,inComponent:0,animated:true)
         initThemes(theme_ind)
+        
+        //get default max group size for split slider
+        let max_group = defaults.integerForKey("max_group_size")
+        if max_group == 0{
+            defaults.setInteger(20, forKey: "max_group_size")
+        }
+        maxGroupStepper.value = Double(max_group)
+        maxGroupLabel.text = String(format:"Max Group Size - %1.f", Float(maxGroupStepper.value))
+        
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -40,7 +54,7 @@ class SettingsViewController: UIViewController, UIPickerViewDataSource, UIPicker
     
     @IBAction func onDefaultTipValueChanged(sender: AnyObject) {
         //tip_index is the same for tip calculator
-        var tip_index = deftipSegCtrl.selectedSegmentIndex
+        let tip_index = deftipSegCtrl.selectedSegmentIndex
         
         let defaults = NSUserDefaults.standardUserDefaults()
         defaults.setInteger(tip_index, forKey: "default_tip_percentage_index")
@@ -70,11 +84,11 @@ class SettingsViewController: UIViewController, UIPickerViewDataSource, UIPicker
     }
     
     
-    //refresh themes()
+    //refresh themes
     
     func initThemes(ind:Int){
 
-        let labels = [defaultTipCaption, colorThemeCaption]
+        let labels = [defaultTipCaption, colorThemeCaption, maxGroupLabel]
         if (ind == 0){
             //White Theme
             self.view.backgroundColor = UIColor( red: 10, green: 10, blue:10, alpha: 1.0 )
@@ -110,6 +124,12 @@ class SettingsViewController: UIViewController, UIPickerViewDataSource, UIPicker
     
     }
     
+    @IBAction func onGroupStepperChanged(sender: AnyObject) {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setInteger(Int(maxGroupStepper.value), forKey: "max_group_size")
+         maxGroupLabel.text = String(format:"Max Group Size - %1.f", Float(maxGroupStepper.value))
+        
+    }
     
     /*
     // MARK: - Navigation

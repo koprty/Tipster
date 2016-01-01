@@ -12,10 +12,6 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var percentLabel: UILabel!
     
-    @IBOutlet weak var tipCaption: UILabel!
-    @IBOutlet weak var totalCaption: UILabel!
-    
-  
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var dollarLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
@@ -28,19 +24,30 @@ class ViewController: UIViewController {
     @IBOutlet weak var evenLabel: UILabel!
     @IBOutlet weak var evenStepper: UIStepper!
     
+    @IBOutlet weak var splitCaption: UILabel!
+    @IBOutlet weak var splitSlider: UISlider!
+    @IBOutlet weak var splitNumLabel: UILabel!
     
     var starttime = NSDate()
     var baseStep = 50.0
     var inputAmt = 0.0
     var tipAmt = 0.0
     var totalAmt = 0.0
+    
+    var currencySymbol = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         inputField.text = ""
-        tipLabel.text = "$0.00"
-        totalLabel.text = "$0.00"
+        
+        let locale = NSLocale.currentLocale()
+        let currencySymbols = locale.objectForKey(NSLocaleCurrencySymbol) as! String
+        currencySymbol = String(currencySymbols.characters.last!)
+        tipLabel.text = currencySymbol+"0.00"
+        totalLabel.text = currencySymbol+"0.00"
+        dollarLabel.text = currencySymbol
         inputField.layer.cornerRadius = 8
         let myColor : UIColor = UIColor( red: 0, green: 0, blue:0, alpha: 1.0 )
         inputField.layer.borderColor = myColor.CGColor;
@@ -50,7 +57,9 @@ class ViewController: UIViewController {
         self.inputField.becomeFirstResponder()
         self.evenStepper.value = 50 //50 is base of step values
         self.evenStepper.stepValue = 1
-        print ("ASDLKFJADSLKFJAS")
+        
+        self.splitSlider.value = 2
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -60,22 +69,24 @@ class ViewController: UIViewController {
     // event for seg ctrl controlling tip amounts
     @IBAction func onValueChanged(sender: AnyObject) {
         refreshvalues()
+        refreshSlider()
     }
     // event for changed input
     @IBAction func onInputEditChange(sender: AnyObject) {
         refreshvalues()
+        refreshSlider()
     }
 
     func refreshvalues(){
         let tipPercents = [0.15, 0.18, 0.20, 0.25]
-        var tipP = tipPercents[tipSegCtrl.selectedSegmentIndex]
+        let tipP = tipPercents[tipSegCtrl.selectedSegmentIndex]
         
         inputAmt = NSString(string: inputField.text!).doubleValue
         tipAmt = inputAmt * tipP
         totalAmt = inputAmt * (1+tipP)
        
-        tipLabel.text = String(format:"$%.2f",tipAmt)
-        totalLabel.text = String(format:"$%.2f",totalAmt)
+        tipLabel.text = String(format:currencySymbol+"%.2f",tipAmt)
+        totalLabel.text = String(format:currencySymbol+"%.2f",totalAmt)
         percentLabel.text = String(format:"%.2f%%", tipP*100)
         
     }
@@ -83,9 +94,18 @@ class ViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         let defaults = NSUserDefaults.standardUserDefaults()
+        //refresh default tip percentage
         let tipIndex = defaults.integerForKey("default_tip_percentage_index")
         tipSegCtrl.selectedSegmentIndex = tipIndex;
         refreshvalues()
+        
+        //refresh max groups split size
+        let maxValue = Float(defaults.integerForKey("max_group_size"))
+        if splitSlider.value > maxValue{
+            splitSlider.value = maxValue
+        }
+        splitSlider.maximumValue = maxValue
+        refreshSlider()
         //time elapsed in seconds
         let timePassed = NSDate().timeIntervalSinceDate(starttime)
         if (timePassed > 600){
@@ -95,6 +115,9 @@ class ViewController: UIViewController {
         
         let theme_ind = defaults.integerForKey("theme_index")
         initThemes(theme_ind)
+        
+        
+        
     }
     
     override func viewDidDisappear(animated: Bool) {
@@ -105,7 +128,7 @@ class ViewController: UIViewController {
     
     func initThemes(ind:Int){
         //tipCaption, totalCaption,
-        let labels = [totalLabel, tipLabel, dollarLabel, evenLabel,percentLabel]
+        let labels = [totalLabel, tipLabel, dollarLabel, evenLabel,percentLabel,splitCaption,splitNumLabel]
         if (ind == 0){
             //White Theme
             self.view.backgroundColor = UIColor( red: 10, green: 10, blue:10, alpha: 1.0 )
@@ -174,15 +197,30 @@ class ViewController: UIViewController {
                     totalAmt = totalAmt + (1-totalAmt%1)
                 }
             }
-            totalLabel.text = String(format:"$%.2f",totalAmt)
+            totalLabel.text = String(format:currencySymbol+"%.2f",totalAmt)
             let perAmt = totalAmt/inputAmt - 1
             tipAmt = perAmt*inputAmt
-            tipLabel.text = String(format:"$%.2f",tipAmt)
+            tipLabel.text = String(format:currencySymbol+"%.2f",tipAmt)
             percentLabel.text = String(format:"%.2f%%",perAmt*100)
             baseStep = evenStepper.value
         }
+        refreshSlider()
         
     }
 
+    @IBAction func onSliderChanged(sender: AnyObject) {
+        refreshSlider()
+    }
+    func refreshSlider(){
+        self.splitSlider.value = Float(Int(self.splitSlider.value))
+        let each = Float(totalAmt)/self.splitSlider.value
+        if self.splitSlider.value <= 1{
+            splitCaption.text = String (format:"%1.f Person",self.splitSlider.value)
+        }
+        else{
+        splitCaption.text = String(format:"%1.f People",self.splitSlider.value)
+        }
+        splitNumLabel.text = String(format:currencySymbol+"%.2f",each)
+    }
 }
 
