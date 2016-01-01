@@ -12,31 +12,33 @@ The following **required** functionality is complete:
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
+* [x] Settings page to change the default tip percentage.
 * [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [x] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Added an additional setting to change the color theme of the application which includes implementing background and text color
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+* Playing around with XCode for the first time was difficult 
+    - Multiple times I was unable to figure out why my simulator was not displaying the correct storyboard and I had to restart the project from scratch
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2015] [Lise Ho]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -50,13 +52,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.# Tipster
 Tipster - iOS app
-
-# Description
-* A simple application to calculate tip with percents
-
-# Brainstorm Ideas
-* Even Tip option 
-   * Tip within 15-30% that is the lowest and the most EVEN meaning NO COINS
-      * Option to increase tip amount to next lowest amount
-      * (Don't worry about those under a dollar <- negligible as most things are priced over a dollar in a store that this app is relevant to)
-
