@@ -4,7 +4,7 @@
 
 Submitted by: **Lise Ho**
 
-Time spent: **8** hours spent in total
+Time spent: **11** hours spent in total
 
 ## User Stories
 
@@ -21,8 +21,8 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] Added a setting to change the color theme of the application which includes implementing background and text color
-- [x] Added an Even Total Function
-- [x] Added splitting bill Feature
+- [x] Added an Even Total Bill feature
+- [x] Added Splitting Bill feature
 - [x] Added setting to control max group size 
 
 ## Video Walkthrough 
