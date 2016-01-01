@@ -70,7 +70,7 @@ class ViewController: UIViewController {
         //time elapsed in seconds
         var timePassed = NSDate().timeIntervalSinceDate(starttime)
         print (timePassed)
-        if (timePassed > 60*60){
+        if (timePassed > 600){
             inputField.text = ""
             refreshvalues()
         }
